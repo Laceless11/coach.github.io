@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<style>
+		.card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        .card p {
+            font-size: 0.75em;
+        }
+	</style>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Einfaches 4-4-2</section>
+				<section>
+					<section>Innenverteitdiger (IV)</section>
+					<section>
+						<div class="card">
+							<p>Position: In der Mitte der Viererkette
+								Aufgaben: Gegenspieler decken, Bälle klären, Kopfballduelle gewinnen
+								Spielaufbau durch präzise Pässe nach vorne
+							</p>
+						</div>
+					</section>
+				</section>
+				<section>
+					<section>Aussenverteidiger</section>
+					<section>
+						<div class="card">
+							<p>Position: Links- und Rechtsaußen in der Viererkette
+								Aufgaben: Verteidigung gegen gegnerische Flügelspieler, Unterstützung im Angriff
+								Flanken in den Strafraum schlagen</p>
+						</div>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
